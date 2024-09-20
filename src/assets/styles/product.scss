@@ -1,0 +1,19 @@
+#product{
+    padding-top: 15px;
+    #ButtonClose{
+        text-align: right;
+    }
+    li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        #accordion{
+            padding: 0;
+        }
+    }
+    .btn{
+        margin-left: 3px;
+    }
+}

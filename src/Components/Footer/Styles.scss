@@ -1,0 +1,47 @@
+footer {
+    margin-top: 30px;
+    #container {
+        background-color: #f3efef;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    #footerItens{
+        a{
+            color: #464646;
+        }
+        #logoFooter{
+            width: 140px;
+            height: 140px;
+        }
+        
+        h4{
+            margin-left: 9px;
+        }
+        ul{
+            padding-left: 10px;
+        }
+        li{
+            list-style-type: none;
+        }
+        #facebook{
+            font-size: 25px;
+            color: #1533dd;
+        }
+        #instagram{
+            font-size: 25px;
+            margin-left: 10px;
+            color: #dd1515;
+        }
+        #endFooter{
+            display:grid;
+            img{
+                width: 100px;
+                height: 100px;
+                margin-left: 50px;
+                margin-bottom: 10px; 
+            }
+        }
+    }
+}
+    

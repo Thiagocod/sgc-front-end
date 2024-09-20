@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#successfulRegister{
+    padding-top: 5px;
+    #title{
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ebebeb;
+        text-shadow: 2px #4e4e4e;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center ;
+        background-color: #ca5df3;
+        border-radius: 10px;
+    }
+    #logoSuccessful{
+        width: 100%;
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            width: 650px;
+            height: 650px;
+        }
+    }
+    #colBtn{
+        text-align: center;
+        span{
+            font-size: 17px;
+            font-weight: normal;
+            text-overflow: 2px #2b2b2b;
+        }
+        #returnBtn{
+            margin-right: 300px ;
+        }
+    }
+        
+}

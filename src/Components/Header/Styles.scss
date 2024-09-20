@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+header{
+    margin-top: 5px;
+    padding: 0;
+    #colImg{
+        text-align: right;
+    }
+    #logo{
+        width: 82px;
+        height: 82px;
+    }
+    #barCol {
+        height: 82px;
+        background-color: #cb5df3bb;
+        padding-top: 10px;
+        display: flex;
+        #LocationNow{
+            #iconLocation{
+                font-size: 30px;
+                margin-bottom: 5px;
+            }
+            p{
+                display: inline;
+            }
+            display: inline;
+            margin-right: 7px;
+            font-family: "Playwrite NO", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 10px;
+        }
+        #searchBar{
+            margin-top: 4px;
+            height: 48px;
+            display: flex;
+        }
+        #textForm{
+            width: 450PX;
+            font-size: 19px;
+        }
+        #searchBar Button{
+            margin-top: 2px;
+            height: 47px;
+            width: 47px;
+            margin-left: 10px;
+            border-radius: 10%;
+        }
+        #searchRadius{
+            margin-left: 30px;
+            font-size: 47px;
+        }
+        .select{
+            margin: 15px 0px 0px 5px;
+            width: 155px;
+            height: 32px;
+            font-size: 14px;
+            background-color: transparent;
+            border-color: #3a3a3a86;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    #colProfile{
+        z-index: 10;
+        padding-top: 2px;
+    }
+    
+
+}

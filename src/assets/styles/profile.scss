@@ -1,0 +1,31 @@
+#profile{
+    .tabsProfile{     
+        height: 105%;
+        #iconProfile{
+            padding: 0;
+            #icon{
+                margin-left: 25px;
+                font-size: 70px;
+                color: #12680f;
+            }
+        }
+        #TabsProfileCol{
+            padding-top: 50px;
+        }
+        .colClose{
+            padding-top: 62px;
+            #ButtonClose{
+                margin-left: 72px;
+                background-color: #c0c0c0;
+                width: 30px;
+                height: 30px;
+                #close{
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+    }
+
+}

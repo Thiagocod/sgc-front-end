@@ -1,0 +1,17 @@
+#myNoteProducts{
+    background-color: azure;
+    li{
+        list-style-type: none;
+    }
+    .searchDescriptionCol{
+        margin: 15px 0px 0px 20px;
+    }
+    .searchValueCol{
+        margin-top: 15px;
+        text-align: right;
+    }
+    hr{
+        margin-top: 5px;
+        width: 90%;
+    }
+}
