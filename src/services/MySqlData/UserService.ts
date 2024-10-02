@@ -75,6 +75,10 @@ interface UpdateUser {
     number: string;
 }
 
+interface DeleteUser{
+    idUser: string;
+}
+
 export const CreateUser = async (data:User) => {
         const addressSearch:string = data.address.concat(", ",data.number,", ", data.city);
         const coords = await geocodeAddress(addressSearch);
@@ -207,5 +211,15 @@ export async function SearchEmail(email: string): Promise<UserSearchEmail[]> {
     } catch (error) {
         console.error('Ocorreu um erro ao buscar os dados!', error);
         return [];
+    }
+}
+
+export const RemoveUser = async (paramsDelete: DeleteUser) =>{
+    const params= {id: paramsDelete.idUser};
+    try{
+        const response = await axios.delete('http://localhost:3001/api/data/user', {params});
+        return response.status;
+    } catch (error){
+        console.error(error);
     }
 }

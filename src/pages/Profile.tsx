@@ -12,6 +12,7 @@ import PersonalData from '../Components/PersonalData/PersonalData';
 import Security from '../Components/Security/Security';
 import ProductsInserts from '../Components/ProductsInserts/ProductsInserts';
 import MyNoteProducts from '../Components/MyNoteProducts/MyNoteProducts';
+import DeleteProfile from '../Components/DeleteProfile/DeleteProfile';
 
 export function Profile(){
     const CloseBtn = () => {
@@ -41,7 +42,10 @@ export function Profile(){
                                     <ProductsInserts />
                                 </Tab>
                                 <Tab eventKey="NotesUser" title="Notas Cadastradas">
-                                    <MyNoteProducts/>
+                                    <MyNoteProducts />
+                                </Tab>
+                                <Tab eventKey="DeleteProfile" title="Excluir perfil">
+                                    <DeleteProfile />
                                 </Tab>
                             </Tabs>
                         </Col>
