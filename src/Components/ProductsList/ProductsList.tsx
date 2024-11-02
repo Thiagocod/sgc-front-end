@@ -56,7 +56,7 @@ const ProductsList: React.FC<ProductsListProps> = ({ searchTerm, distanceTerm, a
                                         <Table className='tableDescription'>
                                                 <tr>
                                                 <th className="descriptionProductTh">Produto:</th>
-                                                <th className="valueProduct">R$ {item.nameProduct}</th>
+                                                <th className="valueProduct">{item.nameProduct}</th>
                                                 </tr>
                                                 <tr>
                                                 <th className="descriptionProductTh">Valor:</th>
