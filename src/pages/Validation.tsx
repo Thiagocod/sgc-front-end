@@ -106,7 +106,8 @@ export function Validation() {
     const onSubmit: SubmitHandler<SetUpdateProduct> = async (data) => {
         const update = await UpdateProduct(data);
         if (update != null) {
-            alert('Cadastro realizado com sucesso');
+            alert('Cadastro atualizado com sucesso');
+            window.location.href = "/adm/list_validation";
         }
     };
 
